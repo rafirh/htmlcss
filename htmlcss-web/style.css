@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Ubuntu:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(assets/background.jpg);
+    background-position: center;
+}
+
+.navigator{
+    
+    margin: auto;
+    padding: 20px 20px;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+
+.logo{
+    width: 40px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 20%;  
+}
+.judul{
+    display: flex;
+}
+.judul h1{
+    color: #fff;
+    margin: 0 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.judul h1 span{
+    color: crimson;
+    font-family: 'Ubuntu', sans-serif;
+}
+.sosmed{
+    color: white;
+    display: flex;
+    align-items: center;    
+}
+.navigator{
+    background-color: rgba(0, 0, 0, 0.294);
+}
+.navigator ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    
+}
+
+.sosmed ul li a{
+    text-decoration: solid;
+    color: white;
+    font-size: 12px;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.gaktif{
+    text-decoration: solid;
+    color: white;
+    font-size: 12px;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+}
+.aktif{
+    text-decoration: solid;
+    color: black;
+    font-size: 12px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+ul li a:hover{
+    color: black;
+    background-color: #fff;
+}
+
+
+
+
+
+.isihome h1{
+    color: #fff;
+    text-align: left;
+    stroke: 4px #fff;
+    letter-spacing: 2px;
+    font-weight: 500;
+   
+}
+.isihome h1 span{
+    color: crimson;
+    font-weight: 600;
+}
+    
+    
+
+
+
+.contact-form{
+    width: 85%;
+    max-width: 600px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    font-family: "Montserrat",sans-serif;
+    margin: 30px 0;
+    color: #fff;
+  }
+  .contact-form h1{
+    margin-top: 0;
+    font-weight: 200;
+    color: crimson;
+    font-family: 'Poppins',sans-serif;
+  }
+  .txtb{
+    border:1px solid gray;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+    color: #fff;
+  }
+  .txtb label{
+    display: block;
+    text-align: left;
+    
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff
+  }
+  .txtb input,.txtb textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+    color: #fff;
+  }
+  .btn{
+    display: inline-block;
+    background:  #008000;
+    padding: 14px 0;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .isihome img{
+      border-radius: 100%;
+      width: 250px;
+      height: 250px;
+      background-color: #ffffff71;  
+      display: inline-block; 
+      border: 2px solid crimson; 
+  }
+  .isihome{
+      position: relative;
+      width: 50%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 100px 300px;
+  }
+.isiservice{
+    color: #fff;
+    text-align: center;
+}
+.isiservice h2{
+    color: crimson;
+    margin: 90px 0;
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 4px;
+}
+.daftarservice{
+    display: inline-flex;
+}
+.daftarservice h4{
+    font-weight: 400;
+    
+}
+.daftarservice .box{
+    height: auto;
+    width: 300px;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.icon i{
+    align-self: center;
+}
+.daftarservice h4{
+    padding: 20px 0;
+}
+
+.isihome {
+    animation-name: coba;
+    animation-duration: 1s;
+}
+@keyframes coba{
+    0%   {right:1500px; top:0px;}
+  100% {right:0px; top:0px;}
+}
+
+
+  
+  .skills{
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+  }
+  
+  .skill-name{
+    font-size: 18px;
+    font-weight: 600;
+    color: #f1f1f1;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+  
+  .skill-bar{
+    height: 14px;
+    background: #282828;
+    border-radius: 3px;
+  }
+  
+  .skill-per{
+    height: 14px;
+    background: crimson;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 2.5s 1;
+  }
+  
+  .skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    font-size: 12px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+  }
+  
+  .skill-per::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #f1f1f1;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+  }
+  
+  @keyframes fillBars{
+    from{
+      width: 0;
+    }
+    to{
+      width: 100%;
+    }
+  }
+
+  .isiskill{
+    margin: 100px 300px;
+  }
+.skills h2{
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 4px;
+    text-align: center;
+    color: crimson;  
+}
+
+.isiabout h2{
+    color: crimson;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-align: center;
+    margin: 80px 0;
+}
+.isiabout p{
+    color: #fff;
+    padding: 0 200px;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+}
+    
+
+
+
+
+
+
+
+
+
